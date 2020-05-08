@@ -4,7 +4,7 @@ Thanks for checking out my webinar on Test-Driven Development! This repo contain
 
 ## Webinar Video
 
-The video from the webinar can be found [here](https://drive.google.com/file/d/1ojcvrnC8lsDnG_DUtAu0UB8-GuhtnKbn/view?usp=sharing)
+The video from the webinar can be found [here](https://drive.google.com/file/d/1ojcvrnC8lsDnG_DUtAu0UB8-GuhtnKbn/view?usp=sharing). This is the unedited video for the moment. The webinar begins around 4m22s
 
 ## Example code
 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Invoice</title>
+  <link rel="stylesheet" href="./static/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/styles.css">
+
+</head>
+<body>
+
+  <div class="invoice">
+    <h1>Invoice</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="item-name">Item Name</th>
+          <th class="item-price">Price</th>
+          <th class="item-qty">Qty</th>
+          <th class="item-extended">Extended</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class='line-item'>
+          <td class="item-name">Thing 1</td>
+          <td class="item-price">1</td>
+          <td class="item-qty">
+            <input type="text">
+          </td>
+          <td class="item-extended"></td>
+        </tr>
+        <tr class='line-item'>
+          <td class="item-name">Thing 2</td>
+          <td class="item-price">10</td>
+          <td class="item-qty">
+            <input type="text">
+          </td>
+          <td class="item-extended"></td>
+        </tr>
+        <tr class='line-item'>
+          <td class="item-name">Thing 3</td>
+          <td class="item-price">100</td>
+          <td class="item-qty">
+            <input type="text">
+          </td>
+          <td class="item-extended"></td>
+        </tr>
+        <tr class="totals">
+          <td colspan="3" class="text-right">Total:</td>
+          <td class='total-price'></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>

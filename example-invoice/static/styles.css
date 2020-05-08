@@ -1,0 +1,21 @@
+div.invoice {
+  margin: 2em;
+}
+
+td.item-qty input {
+  text-align: right;
+  width: 3em;
+}
+
+.item-price,
+.item-extended {
+  text-align: right;
+}
+
+.total-price {
+  text-align: right;
+}
+
+.total-price::before {
+  content: "$ "
+}

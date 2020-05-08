@@ -1,0 +1,20 @@
+{
+  "name": "example-bowling",
+  "version": "1.0.0",
+  "main": "bowling.js",
+  "type": "module",
+  "scripts": {
+    "start": "mocha -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

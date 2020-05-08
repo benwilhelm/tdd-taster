@@ -1,0 +1,24 @@
+{
+  "name": "example-bowling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "jsdom": "^16.2.2",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "mocha -w --require @babel/register *.spec.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

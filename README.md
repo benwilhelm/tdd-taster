@@ -1,5 +1,8 @@
 # TDD Taster  
 
+**Note: This is part of a free monthly series of webinars for junior devs.**  
+**https://benwilhelm.com/webinars**
+
 Thanks for checking out my webinar on Test-Driven Development! This repo contains the code from the examples that I showed, plus some additional resources for studying TDD on your own.
 
 ## Webinar Video
